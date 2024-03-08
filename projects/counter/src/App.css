@@ -1,0 +1,36 @@
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .counter-input {
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .button-container {
+    margin-bottom: 20px;
+  }
+  
+  .increment-btn,
+  .decrement-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .increment-btn:hover,
+  .decrement-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .count-text {
+    font-size: 20px;
+  }
+  

@@ -1,0 +1,32 @@
+.head {
+   text-align: center;
+   color:blue;
+   font-size: 30px;
+   margin-bottom: 20px;
+ }
+ 
+ .item-count {
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 18px;
+ }
+ 
+
+ .remove-item-btn {
+   background-color: #ff6347;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   font-size: 16px;
+   margin: 0 auto;
+   cursor: pointer;
+   border-radius: 4px;
+ }
+ 
+ .remove-item-btn:hover {
+   background-color: #ff483f;
+ }
+ 
