@@ -1,0 +1,39 @@
+
+.movie {
+    margin-bottom: 20px;
+
+  }
+  
+  .movie img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .movie h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    
+  }
+  
+  .movie p {
+    font-size: 1rem;
+    
+  }
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  gap: 5px;
+  align-items: center; 
+}
+
+.head{
+  color: white;
+}
+
+.para{
+  color: white;
+}
+
+  
