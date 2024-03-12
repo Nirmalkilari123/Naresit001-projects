@@ -29,7 +29,7 @@ const [btnclick,setBtnclick]=useState(0);
   }, []);
 
   const getRandomColor = () => {
-    const colors = ['#f5f5f5', '#e0ffff', '#f0f8ff', '#f0ffff', '#f0e68c']; // Add more colors as needed
+    const colors = ['#DFFF00', '#FFBF00', '#FF7F50', '#DE3163', '#9FE2BF','#40E0D0','#6495ED','#CCCCFF']; 
     const randomIndex = Math.floor(Math.random() * colors.length);
     return colors[randomIndex];
   };
