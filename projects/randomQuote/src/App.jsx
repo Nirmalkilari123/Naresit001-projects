@@ -22,7 +22,7 @@ const [btnclick,setBtnclick]=useState(0);
     };
 
     
-    const intervalId = setInterval(fetchNewQuote, 5000);
+    const intervalId = setInterval(fetchNewQuote, 4000);
 
     
     return () => clearInterval(intervalId);
@@ -36,7 +36,8 @@ const [btnclick,setBtnclick]=useState(0);
 
   const handleSave = () => {
     const newQuote = { quote, author };
-    setSavedQuotes([...savedQuotes, newQuote]);
+  setSavedQuotes([...savedQuotes, newQuote]);
+  setBgColor(getRandomColor());
   };
 
   const handleDelete = (index) => {
@@ -53,7 +54,9 @@ const [btnclick,setBtnclick]=useState(0);
       <button className='btn2' onClick={()=>setBtnclick(btnclick+1)}>Refresh</button>
       <button className='btn' onClick={handleSave}>Save</button>
       <div style={{textAlign:"center",margin:"10px"}}>
-        <h2>Saved Quotes</h2>
+        <div className='app2'>
+        <h2 >Saved Quotes</h2>
+        </div>
         {savedQuotes.map((item, index) => (
           <div key={index}>
             <blockquote>{item.quote}</blockquote>
