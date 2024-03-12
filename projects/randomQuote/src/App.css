@@ -1,0 +1,73 @@
+.app{
+  text-align: center;
+  align-items: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-QRiJDJ7_wCCU9YxWw9bdLVqutyOpgpEGng&usqp=CAU");
+  background-size: cover;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+blockquote {
+  font-size: 24px;
+  margin: 0;
+}
+
+cite {
+  font-style: italic;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.saved-quotes {
+  margin-top: 20px;
+}
+
+.saved-quote {
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.change-background-button {
+  background-color: #008CBA;
+}
+
+.btn{
+  color: white;
+  background-color: green;
+}
+
+.btn1{
+  color: white;
+  background-color: red;
+}
+
+.btn2{
+  color: white;
+  background-color:blue;
+  margin: 10px;
+}
