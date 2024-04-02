@@ -1,0 +1,247 @@
+body{
+background-size: cover;
+}
+.Home{
+    height: 630px;
+    background-image: linear-gradient(to right, #2196f3, #f44336);   
+
+h1{
+    color: white;
+}
+}
+.About{
+    background-image: linear-gradient(to right, #2196f3, #f44336);   
+    height: 130vh;
+    background-size: cover;
+
+}
+.Projects{
+    height:130vh;
+    background-color: #e2e8f0;
+
+}
+
+.Contact{
+    background-image: linear-gradient(to right, #ffffff, #f44336); 
+    height: 630px;
+}
+
+
+
+li{
+    text-decoration: none;
+    color: white;
+}
+
+.img{
+   
+    border-radius: 50%;
+    width: 550px; 
+    height: 550px; 
+    object-fit: cover; 
+}
+.img1{
+    height: 45px;
+    width: 150px;
+}
+
+.nav{
+    background-color: #475569;
+    height: 10vh;
+    padding: 20px;
+    
+}
+
+.sel{
+    background-color: #f1f5f9;
+    width: 300px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border: 1px solid #e6e9ec;
+    border-radius: 4px;
+    outline: none;
+    margin: 10px;
+}
+.q-con {
+    margin-top: 30px;
+}
+.app-con {
+    list-style-type: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+
+.app-li {
+    width: 20%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin: 29px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: green;
+}
+
+.pic{
+    height: 145px;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; 
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; 
+   
+}
+
+
+.pro-head{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:  #0b69ff;
+}
+
+
+
+
+.Header .header-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Header .header-link:hover {
+     
+  }
+  
+
+ /*Header.css*/
+.navbar {
+    background-image: linear-gradient(to right, #2196f3, #f44336);
+    padding: 10px 20px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
+  .nav-item {
+    margin-left: 20px; 
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107;
+  }
+  /* Header css End*/
+
+/* Contact.css start */
+.container.contact__container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
+
+.contact__options{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option{
+
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact__option:hover{
+
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon{
+
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.contact__option a{
+
+    margin-top: .7rem;
+    display: inline-block;
+    font-size: .8rem;
+}
+
+/* Form Part */
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea{
+
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none; /* avoid text area being resized */
+    color: var(--color-white);
+}
+
+/* Media queries for medium devices(Tablets) */
+
+@media screen and (max-width: 1024px) {
+
+    .container.contact__container{
+
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+
+}
+
+/* Media queries for small devices(Mobiles) */
+
+@media screen and (max-width: 600px) {
+
+    .container.contact__container{
+
+        width: var(--container-width-sm);
+    }
+}
+
+/* Contact.css End */
+
+
