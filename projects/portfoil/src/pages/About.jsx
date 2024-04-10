@@ -15,7 +15,7 @@ const About = () => {
 
           <div className="about__me">
             <div className="about__me-image">
-                <img src='https://res.cloudinary.com/de4euasql/image/upload/v1698392843/WhatsApp_Image_2023-10-27_at_13.15.56_ab6554fe_nabsny.jpg'alt="Me" style={{height:'400px', width:'250px'}} />
+                <img src='https://res.cloudinary.com/de4euasql/image/upload/v1698392843/WhatsApp_Image_2023-10-27_at_13.15.56_ab6554fe_nabsny.jpg'alt="Me" className='img2' />
             </div>
           </div>
 
@@ -61,8 +61,10 @@ const About = () => {
 
           </div>
       </div>
+      
     </section>
     </div>
+
   )
 }
 

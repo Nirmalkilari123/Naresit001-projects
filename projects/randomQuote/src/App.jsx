@@ -22,12 +22,13 @@ const [btnclick,setBtnclick]=useState(0);
     };
 
     
-    const intervalId = setInterval(fetchNewQuote, 4000);
-
-    
-    return () => clearInterval(intervalId);
-  }, []);
-
+   
+  }, [fetchNewQuote]);
+const updateQuote (){
+  setInterval(() => {
+    setBtnclick(btnclick+1)
+  }, 3000);
+}
   const getRandomColor = () => {
     const colors = ['#DFFF00', '#FFBF00', '#FF7F50', '#DE3163', '#9FE2BF','#40E0D0','#6495ED','#CCCCFF']; 
     const randomIndex = Math.floor(Math.random() * colors.length);
@@ -46,12 +47,16 @@ const [btnclick,setBtnclick]=useState(0);
     setSavedQuotes(updatedQuotes);
   };
 
+  const handleRefresh = () => {
+    fetchNewQuote();
+  };
+
   return (
     <div className ="app">
     <div style={{ backgroundColor: bgColor }}>
       <blockquote>{quote}</blockquote>
       <cite>-- {author}</cite>
-      <button className='btn2' onClick={()=>setBtnclick(btnclick+1)}>Refresh</button>
+      <button className='btn2' onClick={handleRefresh}>Refresh</button>
       <button className='btn' onClick={handleSave}>Save</button>
       <div style={{textAlign:"center",margin:"10px"}}>
         <div className='app2'>
